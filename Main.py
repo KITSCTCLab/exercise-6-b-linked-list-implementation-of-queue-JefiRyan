@@ -29,7 +29,7 @@ class Queue:
     temp = self.head
     while temp:
       print(temp.data,end="=>")
-      temp = temp.data
+      temp = temp.next
     print(temp)
 
 
